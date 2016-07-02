@@ -1,0 +1,29 @@
+# Destroy the Monument - Made by Juubes - Idea From Avicus Network.
+# The Configuration - Yay!
+
+# Do you want to use custom chat?
+format-chat: false
+
+# Do you want to collect stats for players?
+enable-stats: false
+
+# List your worlds here. It's recommended to have atleast 3 maps.
+# IF YOU LIST A WORLD BEFORE CREATING IT, THE PLUGIN WILL CREATE A NEW NORMAL WORLD.
+GameWorlds:
+#- gameworld1
+#- gameworld2
+
+# Options (spawns and monuments) for each world.
+options:
+# The message before restart, informing players that the server's restarting. Use {SECONDS} to display the time.
+restart-countdown: "&eThe server's restarting in &6{SECONDS} &eseconds."
+
+# Games before restarting the server (not nesessary)
+# Set to 0 for no restarts.
+games-before-restart: 10
+
+# The message after the maps are played and the server needs a restart.
+restart-message: "&eThe server is restarting to regenerate the maps!"
+
+# The command after the maps are played and the server needs a restart. (The '/' isn't needed).
+restart-command: "/restart"

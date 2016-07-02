@@ -1,0 +1,27 @@
+main: me.juubes.DTM.DTM
+name: DestroyTheMonument
+version: 2.0
+author: Juubes
+commands:
+  DTM:
+    aliases:
+    - dtm
+    description: The DTM main command.
+    usage: /DTM
+  cworld:
+  mapkit:
+  setmainlobby:
+  setlobby:
+  setspawn:
+  addteam:
+  removeteam:
+    aliases:
+    - deleteteam
+  setmonument:
+  stats:
+  
+permissions:
+  DTM.admin:
+    default: op
+  DTM.stats:
+    default: true
